@@ -1,4 +1,4 @@
-# Designer-Level-for-Mario-Revolution
+# Designer Level for Mario Revolution
 Game Editor for [Mario Revolution](https://github.com/JKord/Mario-Revolution/releases/tag/v1.0)
 
 ### About
