@@ -1,0 +1,26 @@
+﻿<Window x:Class="Designer_Level.InputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InputBox" Height="171" Width="494" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Topmost="True" AllowsTransparency="True">   
+       
+        <Border Margin="10" CornerRadius="50" Height="109" Width="447" MouseLeftButtonDown="Border_MouseLeftButtonDown" Opacity="0.8">
+         <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF92A1F3"/>
+                <GradientStop Color="#FFDFE6EB" Offset="1"/>
+                <GradientStop Color="#FFB0BAE7" Offset="0.53"/>
+            </LinearGradientBrush>
+          </Border.Background>
+        <Grid Width="426" Height="93" Opacity="1">
+            <Grid.Background>
+                <SolidColorBrush />
+            </Grid.Background>
+            <Label Content="Введіть довжину рівня:" Height="41" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="256" Margin="22,0,0,0" FontSize="20" FontFamily="Segoe Print" />
+                <TextBox Height="30" HorizontalAlignment="Right" Margin="0,7,38,0" Name="textBox1" VerticalAlignment="Top" Width="109" FontFamily="Segoe Print" FontSize="14" />
+                <Button Content="ОК" Height="27" HorizontalAlignment="Left" Margin="134,47,0,0" Name="button1" VerticalAlignment="Top" Width="144" Click="button1_Click" Style="{StaticResource ButtonStyler}" />
+            </Grid>
+        </Border>
+    <Window.Background>
+        <SolidColorBrush />
+    </Window.Background>
+</Window>
